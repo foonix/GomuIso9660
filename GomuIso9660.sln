@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 9.00
-# Visual Studio 2005
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32414.248
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GomuIso9660", "GomuIso9660.csproj", "{DCCB4F98-51D9-4415-8B7D-483ABC1F5C83}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormReaderTest", "WinformReaderTest\WinFormReaderTest.csproj", "{8F207A5A-049B-4D87-8AD1-F84CFFBA1ED7}"
@@ -10,23 +12,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinformIsoConverter", "WinformIsoConverter\WinformIsoConverter.csproj", "{4A5F714B-EA9E-4D10-80AE-7A56060742B1}"
 EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 5
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://tfs05.codeplex.com/
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = GomuIso9660.csproj
-		SccLocalPath1 = .
-		SccProjectUniqueName2 = WinformReaderTest\\WinFormReaderTest.csproj
-		SccProjectName2 = WinformReaderTest
-		SccLocalPath2 = WinformReaderTest
-		SccProjectUniqueName3 = WinformIsoCreator\\WinformIsoCreator.csproj
-		SccProjectName3 = WinformIsoCreator
-		SccLocalPath3 = WinformIsoCreator
-		SccProjectUniqueName4 = WinformIsoConverter\\WinformIsoConverter.csproj
-		SccProjectName4 = WinformIsoConverter
-		SccLocalPath4 = WinformIsoConverter
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -51,5 +36,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B5D911E-A700-4514-80F4-55F608B44EB7}
 	EndGlobalSection
 EndGlobal
